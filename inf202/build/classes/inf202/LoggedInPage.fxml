@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane id="AnchorPane" prefHeight="600.0" prefWidth="800.0" style="-fx-background-color: #313455;" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="inf202.LoggedInPageController">
+   <children>
+      <ImageView fitHeight="106.0" fitWidth="109.0" layoutX="346.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../../Desktop/CaDSDSSDe.JPG" />
+         </image>
+      </ImageView>
+      <Button layoutX="103.0" layoutY="237.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="109.0" style="-fx-background-color: #f5f5f5;" text="Report Suchen" />
+      <Button layoutX="268.0" layoutY="237.0" mnemonicParsing="false" onAction="#ReportMachen" prefHeight="60.0" prefWidth="109.0" style="-fx-background-color: #f5f5f5;" text="Report Machen" />
+      <Button layoutX="430.0" layoutY="237.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="109.0" style="-fx-background-color: #f5f5f5;" text="Report düzelt" />
+      <Button layoutX="594.0" layoutY="237.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="109.0" style="-fx-background-color: #f5f5f5;" text="Report sil" />
+      <Button layoutX="180.0" layoutY="373.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="109.0" style="-fx-background-color: #f5f5f5;" text="Person ekle" />
+      <Button layoutX="354.0" layoutY="373.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="109.0" style="-fx-background-color: #f5f5f5;" text="person sil" />
+      <Button layoutX="524.0" layoutY="373.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="109.0" style="-fx-background-color: #f5f5f5;" text="person listele" />
+      <Button layoutX="383.0" layoutY="496.0" mnemonicParsing="false" onAction="#buttonclicked" text="Button" />
+   </children>
+</AnchorPane>
