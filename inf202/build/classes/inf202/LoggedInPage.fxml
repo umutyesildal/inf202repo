@@ -4,21 +4,52 @@
 <?import javafx.scene.image.Image?>
 <?import javafx.scene.image.ImageView?>
 <?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
 
-<AnchorPane id="AnchorPane" prefHeight="600.0" prefWidth="800.0" style="-fx-background-color: #313455;" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="inf202.LoggedInPageController">
+<AnchorPane id="AnchorPane" prefHeight="600.0" prefWidth="800.0" style="-fx-background-color: #313455;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="inf202.LoggedInPageController">
    <children>
       <ImageView fitHeight="106.0" fitWidth="109.0" layoutX="346.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
          <image>
             <Image url="@../../../../../Desktop/CaDSDSSDe.JPG" />
          </image>
       </ImageView>
-      <Button layoutX="103.0" layoutY="237.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="109.0" style="-fx-background-color: #f5f5f5;" text="Report Suchen" />
-      <Button layoutX="268.0" layoutY="237.0" mnemonicParsing="false" onAction="#ReportMachen" prefHeight="60.0" prefWidth="109.0" style="-fx-background-color: #f5f5f5;" text="Report Machen" />
-      <Button layoutX="430.0" layoutY="237.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="109.0" style="-fx-background-color: #f5f5f5;" text="Report düzelt" />
-      <Button layoutX="594.0" layoutY="237.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="109.0" style="-fx-background-color: #f5f5f5;" text="Report sil" />
-      <Button layoutX="180.0" layoutY="373.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="109.0" style="-fx-background-color: #f5f5f5;" text="Person ekle" />
-      <Button layoutX="354.0" layoutY="373.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="109.0" style="-fx-background-color: #f5f5f5;" text="person sil" />
-      <Button layoutX="524.0" layoutY="373.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="109.0" style="-fx-background-color: #f5f5f5;" text="person listele" />
-      <Button layoutX="383.0" layoutY="496.0" mnemonicParsing="false" onAction="#buttonclicked" text="Button" />
+      <Button layoutX="101.0" layoutY="283.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="109.0" style="-fx-background-color: #f5f5f5;" text="Report Suchen" />
+      <Button layoutX="266.0" layoutY="283.0" mnemonicParsing="false" onAction="#ReportMachen" prefHeight="60.0" prefWidth="109.0" style="-fx-background-color: #f5f5f5;" text="Report Machen" />
+      <Button layoutX="428.0" layoutY="283.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="109.0" style="-fx-background-color: #f5f5f5;" text="Report düzelt" />
+      <Button layoutX="592.0" layoutY="283.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="109.0" style="-fx-background-color: #f5f5f5;" text="Report sil" />
+      <Button layoutX="178.0" layoutY="419.0" mnemonicParsing="false" onAction="#personEkle" prefHeight="60.0" prefWidth="109.0" style="-fx-background-color: #f5f5f5;" text="Person ekle" />
+      <Button layoutX="352.0" layoutY="419.0" mnemonicParsing="false" onAction="#personSil" prefHeight="60.0" prefWidth="109.0" style="-fx-background-color: #f5f5f5;" text="person sil" />
+      <Button layoutX="522.0" layoutY="419.0" mnemonicParsing="false" onAction="#personList" prefHeight="60.0" prefWidth="109.0" style="-fx-background-color: #f5f5f5;" text="person listele" />
+      <Line endX="348.0" layoutX="380.0" layoutY="248.0" startX="-304.0" />
+      <Text layoutX="278.0" layoutY="239.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Wilkommen xxxx" wrappingWidth="257.13671875">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Text>
+      <Button layoutX="91.0" layoutY="68.0" mnemonicParsing="false" onAction="#buttonclicked" opacity="0.0" prefHeight="25.0" prefWidth="107.0" text="Geri Dön" />
+      <Text fill="#948f8f" layoutX="122.0" layoutY="87.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Go Back">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Text>
+      <Line endX="84.0" endY="11.0" layoutX="25.0" layoutY="57.0" startX="68.0" startY="23.0" stroke="#948f8f" strokeWidth="2.0" />
+      <Line endX="-85.0" endY="12.0" fill="#868686" layoutX="195.0" layoutY="81.0" startX="-103.4141845703125" startY="0.414215087890625" stroke="#948f8f" strokeWidth="2.0" />
+      <ImageView fitHeight="167.0" fitWidth="202.0" layoutX="319.0" layoutY="13.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@image/LogoPNG.png" />
+         </image>
+      </ImageView>
+      <Text fill="#e65461" layoutX="330.0" layoutY="212.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Lava">
+         <font>
+            <Font name="System Bold Italic" size="32.0" />
+         </font>
+      </Text>
+      <Text fill="WHITESMOKE" layoutX="407.0" layoutY="213.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Kava">
+         <font>
+            <Font name="System Bold Italic" size="32.0" />
+         </font>
+      </Text>
    </children>
 </AnchorPane>

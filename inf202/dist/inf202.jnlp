@@ -8,7 +8,8 @@
   </information>
   <resources>
     <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
-    <jar href="inf202.jar" size="11711" download="eager" />
+    <jar href="inf202.jar" size="180656" download="eager" />
+    <jar href="lib\sqlite-jdbc-3.27.2.jar" size="7103306" download="eager" />
   </resources>
   <jfx:javafx-desc  width="800" height="600" main-class="inf202.Inf202"  name="inf202" />
   <update check="always"/>

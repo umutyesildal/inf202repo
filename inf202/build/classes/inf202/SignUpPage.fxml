@@ -1,14 +1,60 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
 <?import javafx.scene.image.ImageView?>
 <?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
 <?import javafx.scene.text.Text?>
 
-<AnchorPane id="AnchorPane" prefHeight="600.0" prefWidth="800.0" style="-fx-background-color: #313455;" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="inf202.SignUpPageController">
+<AnchorPane id="AnchorPane" prefHeight="600.0" prefWidth="800.0" style="-fx-background-color: #313455;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="inf202.SignUpPageController">
    <children>
       <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="306.0" layoutY="70.0" pickOnBounds="true" preserveRatio="true" />
-      <Button layoutX="625.0" layoutY="165.0" mnemonicParsing="false" onAction="#buttonclicked" text="Button" />
-      <Text layoutX="389.0" layoutY="284.0" strokeType="OUTSIDE" strokeWidth="0.0" text="SignUp" />
+      <Button layoutX="81.0" layoutY="58.0" mnemonicParsing="false" onAction="#buttonclicked" opacity="0.0" prefHeight="25.0" prefWidth="107.0" text="Geri Dön" />
+      <ImageView fitHeight="195.0" fitWidth="201.0" layoutX="310.0" layoutY="48.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@image/LogoPNG.png" />
+         </image>
+      </ImageView>
+      <Text fill="#e65461" layoutX="325.0" layoutY="270.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Lava">
+         <font>
+            <Font name="System Bold Italic" size="40.0" />
+         </font>
+      </Text>
+      <Text fill="WHITESMOKE" layoutX="412.0" layoutY="269.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Kava">
+         <font>
+            <Font name="System Bold Italic" size="40.0" />
+         </font>
+      </Text>
+      <TextField layoutX="319.0" layoutY="328.0" opacity="0.7" prefHeight="25.0" prefWidth="198.0" promptText="Username" />
+      <TextField layoutX="319.0" layoutY="393.0" opacity="0.7" prefHeight="25.0" prefWidth="198.0" promptText="Username" />
+      <TextField layoutX="317.0" layoutY="456.0" opacity="0.7" prefHeight="25.0" prefWidth="198.0" promptText="Username" />
+      <TextField layoutX="317.0" layoutY="494.0" opacity="0.7" prefHeight="25.0" prefWidth="198.0" promptText="Username" />
+      <Text fill="WHITESMOKE" layoutX="319.0" layoutY="318.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Sirket İsmi">
+         <font>
+            <Font name="System Bold Italic" size="17.0" />
+         </font>
+      </Text>
+      <Line endX="208.0" layoutX="306.0" layoutY="280.0" startX="11.0" />
+      <Text fill="WHITESMOKE" layoutX="319.0" layoutY="378.0" strokeType="OUTSIDE" strokeWidth="0.0" text="isim">
+         <font>
+            <Font name="System Bold Italic" size="17.0" />
+         </font>
+      </Text>
+      <Text fill="WHITESMOKE" layoutX="319.0" layoutY="444.0" strokeType="OUTSIDE" strokeWidth="0.0" text="password">
+         <font>
+            <Font name="System Bold Italic" size="17.0" />
+         </font>
+      </Text>
+      <Button layoutX="317.0" layoutY="538.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="198.0" text="Button" />
+      <Text fill="#948f8f" layoutX="112.0" layoutY="77.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Go Back">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Text>
+      <Line endX="84.0" endY="11.0" layoutX="15.0" layoutY="47.0" startX="68.0" startY="23.0" stroke="#948f8f" strokeWidth="2.0" />
+      <Line endX="-85.0" endY="12.0" fill="#868686" layoutX="185.0" layoutY="71.0" startX="-103.4141845703125" startY="0.414215087890625" stroke="#948f8f" strokeWidth="2.0" />
    </children>
 </AnchorPane>
