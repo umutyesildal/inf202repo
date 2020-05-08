@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane id="AnchorPane" prefHeight="600.0" prefWidth="800.0" style="-fx-background-color: #313455;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="inf202.OperatorenController">
+   <children>
+      <ImageView fitHeight="167.0" fitWidth="202.0" layoutX="329.0" layoutY="23.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@image/LogoPNG.png" />
+         </image>
+      </ImageView>
+      <Text fill="#e65461" layoutX="340.0" layoutY="222.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Lava">
+         <font>
+            <Font name="System Bold Italic" size="32.0" />
+         </font>
+      </Text>
+      <Text fill="WHITESMOKE" layoutX="417.0" layoutY="223.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Kava">
+         <font>
+            <Font name="System Bold Italic" size="32.0" />
+         </font>
+      </Text>
+      <Button layoutX="112.0" layoutY="300.0" mnemonicParsing="false" onAction="#personEkle" prefHeight="120.0" prefWidth="109.0" style="-fx-background-color: #f5f5f5;" text="Person ekle" />
+      <Button layoutX="275.0" layoutY="300.0" mnemonicParsing="false" onAction="#personSil" prefHeight="120.0" prefWidth="109.0" style="-fx-background-color: #f5f5f5;" text="person sil" />
+      <Button layoutX="438.0" layoutY="300.0" mnemonicParsing="false" onAction="#personList" prefHeight="120.0" prefWidth="109.0" style="-fx-background-color: #f5f5f5;" text="person listele" />
+      <Button layoutX="601.0" layoutY="300.0" mnemonicParsing="false" onAction="#personDuzenle" prefHeight="120.0" prefWidth="109.0" style="-fx-background-color: #f5f5f5;" text="Person duzenle" />
+      <Text fill="#948f8f" layoutX="122.0" layoutY="87.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Go Back">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Text>
+      <Line endX="84.0" endY="11.0" layoutX="25.0" layoutY="57.0" startX="68.0" startY="23.0" stroke="#948f8f" strokeWidth="2.0" />
+      <Line endX="-85.0" endY="12.0" fill="#868686" layoutX="195.0" layoutY="81.0" startX="-103.4141845703125" startY="0.414215087890625" stroke="#948f8f" strokeWidth="2.0" />
+      <Button layoutX="86.0" layoutY="68.0" mnemonicParsing="false" onAction="#Operatoren" opacity="0.0" prefHeight="25.0" prefWidth="109.0" text="Button" />
+   </children>
+</AnchorPane>
