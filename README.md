@@ -18,7 +18,7 @@ Projektmanager/in:	Umut Yunus Yeşildal
 
 Version:	1.1.3
 Inhaltsverzeichnis
-
+**
 Abkürzungsverzeichnis…………………………………………………………………………………………………………………………….3
 Abbildungsverzeichnis……………………………………………………………………………………………………………………………3
 Tabellenverzeichnis…………………………………………………………………………………………………………………………….3
@@ -51,7 +51,7 @@ Tabellenverzeichnis……………………………………………………�
 3.4 Zusammenfassung und Ausblick…………………………………………………………………………………………………………………………….7
 
 4 STUDENTLISTE……………………………………………………………………………………………………………………………..8	
-
+**
 Abkürzungsverzeichnis
 Abkürzung
 Bedeutung
@@ -81,14 +81,14 @@ Tabellenverzeichnis
 
 
 
-1 Lastenheft 
-1.1 Zielbestimmung: 
+**1 Lastenheft**
+**1.1 Zielbestimmung:**
 Dieses Projekt zielt darauf ab, menschliche Fehler zu vermeiden, während der Mitarbeiter die erforderlichen Teile ausfüllt. Ohne einige Standards akzeptiert das System keine Eingaben. 
  
-1.2 Produkteinsatz: 
+**1.2 Produkteinsatz:** 
 Das Produkt wird von häufig geänderten Betreibern verwendet, die über die Kenntnis von Standards verfügen. Es wird in Fabriken eingesetzt. 
  
-1.3 Produktfunktionen: 
+**1.3 Produktfunktionen:** 
  /LF10/ Ein Benutzer kann sich am System anmelden unter Angabe eines Benutzernamens und seines Passwortes.Alle Operatoren werden eine einzigartige Benutzername und Passwort haben. 
 /LF20/ Ersterfassung,Änderung and Löschung von leere Teile. 
 /LF30/ Nachdem der Benutzer alle Teile vor dem Speichern ausgefüllt hat, wird der Benutzer gefragt, ob er sicher ist. Nach Abschluss kann der Benutzer nichts mehr ändern. 
@@ -96,29 +96,24 @@ Das Produkt wird von häufig geänderten Betreibern verwendet, die über die Ken
 /LF50/ Kalenderdaten werden von der Software hinzugefügt, um falsche Informationen zu vermeiden. 
 /LF60/ Die Suche kann mit der Berichtsnummer erfolgen. 
 
-1.4 Produktdaten: 
+**1.4 Produktdaten:** 
  /LD10/ Operatorendaten (Name,Nachname,Level,Benutzername,Passwort,). 
  /LD20/ Customer,Project Name,Inspection Place,Surface Condition,Stage of Examination müssen String sein. 
-/LD30/Inspection Standart,Evaluation Standart muss im Standart sein. 
- 
+/LD30/Inspection Standart,Evaluation Standart muss im Standart sein.
 
-
-
-
-
-1.5 Produktleistungen
+**1.5 Produktleistungen**
  /LL10/ Ein falsches oder nicht kalibriertes Gerät kann nicht ausgewählt werden. 
 /LL20/ Die Unterschrift des Personals, dessen Zertifikatdatum abgelaufen ist, wird nicht akzeptiert. 
 /LL30/ Nur Bediener mit Stufe 3 können den Bericht genehmigen. 
 /LL40/ Wenn die Prüfungstermine nicht übereinstimmen, wird das Programm nicht akzeptiert. 
 /LL50/ Inspektionsphase kann nicht leer sein. 
  
-1.6 Ergänzungen
-1.7 Glossar
+**1.6 Ergänzungen**
+**1.7 Glossar**
 
 
 
-2 Projektplanung
+**2 Projektplanung**
 2.1 Projektzieleplan
 Projektzieleplan
 Zielart
@@ -205,14 +200,14 @@ Maßnahmen
 
 
 
-3 Projektumsetzung
+**3 Projektumsetzung
 3.1 Einleitung
-3.1.1 Problemstellung
+3.1.1 Problemstellung**
 	Beschreibung des Problems: Falsche Eingaben aufgrund von Ablenkung. 
-3.1.2 Stand der Technik
+**3.1.2 Stand der Technik**
 Java IDE 8.2 ve HSQLDB
 
-3.1.3 Zielsetzung
+**3.1.3 Zielsetzung**
 - Dieses Programm wird von den Bedienern im Werk verwendet. Zielgruppen
 - Fabriken, die von Aufmerksamkeitsfehlern betroffen sind
 Klasse
@@ -242,8 +237,8 @@ Url,User,Pass
 
 
 
-3.2 Anforderungsanalyse und Konzeption
-3.2.1 Funktionale und nichtfunktionale Anforderungen
+**3.2 Anforderungsanalyse und Konzeption**
+**3.2.1 Funktionale und nichtfunktionale Anforderungen**
 - Im Homepage Benutzer muss sich am System anmelden unter Angabe eines Benutzernamens und seines Passwortes.Alle Operatoren werden eine einzigartige Benutzername und Passwort haben. 
 - Operatoren können leere Teile füllen, ändern und löschen.
 - Nachdem der Benutzer alle Teile vor dem Speichern ausgefüllt hat, wird der Benutzer gefragt, ob er sicher ist. Nach Abschluss kann der Benutzer nichts mehr ändern. 
@@ -255,19 +250,13 @@ Url,User,Pass
 -Nur Betreiber der Ebene 3 können den Bericht genehmigen.
 -Wenn die Daten nicht übereinstimmen, ist sie ungültig.
 -Die Audit-Phase darf nicht leer sein.
-3.2.2 Anwendungsfälle (als UML Anwendungsfalldiagramme)
+**3.2.2 Anwendungsfälle (als UML Anwendungsfalldiagramme)**
 
 
 
 
 
-3.2.3 Domänenmodell (als UML Klassendiagramm)
-
-
-
-
-
-
+**3.2.3 Domänenmodell (als UML Klassendiagramm)**
 
 
 
@@ -282,7 +271,13 @@ Url,User,Pass
 
 
 
-4 Stundenliste
+
+
+
+
+
+
+**4 Stundenliste**
 
 Datum
 Dauer
