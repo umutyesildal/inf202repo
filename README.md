@@ -2,6 +2,8 @@ PROJEKTDOKUMENTATION
 
 # **Projekt:LAVAKAVA**
 
+![LavaKava](https://umutyesildal.github.io/benimsayfam/image.png)
+
 Lehrveranstaltung: INF202 - Software Engineering
 
 Semester: SS2019/20
