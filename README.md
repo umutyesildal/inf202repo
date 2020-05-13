@@ -152,18 +152,19 @@ Database.java | Database Verbindung von ganze Programm | connect(),getConnection
 
 ### **4 Stundenliste**
 
-
- 18.04.2020 -- 2 Stunde -- Forschung über Pflichtenheft
- 19.04.2020 -- 4 Stunde -- Pflichtenheft beendet
- 22.04.2020 -- 2 Stunde -- Lernen JavaFX und Scene Builder
- 23.04.2020 -- 2 Stunde -- Scene Builder Manyetik Parçacık Muayene Raporu
- 24.04.2020 -- 2 Stunde -- HomePage Scene Builder
- 25.04.2020 -- 3 Stunde -- Alle Scene Builder fertig
- 26.04.2020 -- 4 Stunde -- Methoden für Scene Switching and etc
- 27.04.2020-- 5 Stunde-- SQLite Database und alle DBMethoden
- 04.05.2020-- 3 Stunde-- JavaFX Aktualisierung(Gui)
- 07.05.2020-- 5 Stunde-- SQLite, JavaFX und neue DB Aktualisierung
- 08.05.2020-- 2 Stunde--ein paar Änderungen mit SceneBuilder
- 09.05.2020-- 2 Stunde-- Arbeiten über Dokumentation
- 11.05.2020-- 2 Stunde-- JavaFX Aktualisierung
- 13.05.2020-- 2 Stunde-- Arbeiten über Dokumentation
+Datum | Dauer | Beschreibung der Aktivität
+----- | ----- | -------------------------
+18.04.2020 | 2 Stunde | Forschung über Pflichtenheft
+19.04.2020 | 4 Stunde | Pflichtenheft beendet
+22.04.2020 | 2 Stunde | Lernen JavaFX und Scene Builder
+23.04.2020 | 2 Stunde | Scene Builder Manyetik Parçacık Muayene Raporu
+24.04.2020 | 2 Stunde | HomePage Scene Builder
+25.04.2020 | 3 Stunde | Alle Scene Builder fertig
+26.04.2020 | 4 Stunde | Methoden für Scene Switching and etc
+27.04.2020 | 5 Stunde | SQLite Database und alle DBMethoden
+04.05.2020 | 3 Stunde | JavaFX Aktualisierung(Gui)
+07.05.2020 | 5 Stunde | SQLite, JavaFX und neue DB Aktualisierung
+08.05.2020 | 2 Stunde | ein paar Änderungen mit SceneBuilder
+09.05.2020 | 2 Stunde | Arbeiten über Dokumentation
+11.05.2020 | 2 Stunde | JavaFX Aktualisierung
+13.05.2020 | 2 Stunde | Arbeiten über Dokumentation
