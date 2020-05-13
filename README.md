@@ -8,20 +8,6 @@ Projekt:
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Lehrveranstaltung:	INF202 - Software Engineering
 
 Semester:	SS2019/20
