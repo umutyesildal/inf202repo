@@ -151,4 +151,5 @@ Datum | Dauer | Beschreibung der Aktivität
 29.05.2020 | 3 Stunde | Bütün variable'lerin nasıl olması gerektiği ve Textfield,Choicebox içeriklerinin nasıl olması gerektiği düşünülüp,plan yapıldı.Variable'ların FXML'e ve Controller'a  girişi yapıldı ve tanıtıldı.
 01.06.2020 | 3 Stunde | muayeneAsamasi ve yuzeyDurumu'nun seçeneklerinin farklı bir yerden eklenilebilmesi sağlanıldı.Gerekli yerlere günün tarihi otomatik gelmesi sağlandı.Firmen FXML dosyasında butonlar eklenildi ve fonksiyonel hale getirildi.Gerekli ChoiceBox'lara gerekli girişler yapıldı.
 02.06.2020 | 3 Stunde | Database ile ilgili testler yapıldı ve çalışmayan methodlar değiştirildi.
-TOPLAM | 86 Stunde | -
+02.06.2020 | 3 Stunde | Rapor ile ilgili geliştirmeler yapıldı.Muayene Kapsami ChoiceBox ile değiştirildi.Rapor Database'i oluşturuldu ve Rapor scene'i için gerekli değişiklikler yapıldı.
+TOPLAM | 89 Stunde | -
