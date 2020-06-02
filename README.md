@@ -138,4 +138,5 @@ Datum | Dauer | Beschreibung der Aktivität
 09.05.2020 | 2 Stunde | Arbeiten über Dokumentation
 11.05.2020 | 2 Stunde | JavaFX Aktualisierung
 13.05.2020 | 2 Stunde | Arbeiten über Dokumentation
-01.06.2020 | 3 Stunde | TextField ChoiceBox ve diğer variablelerin seçimi ve implementationu hakkında çalışmalar.FXML'e ve Controller'a bunların girilmesi.
+01.06.2020 | 3 Stunde | Bütün variable'lerin nasıl olması gerektiği ve Textfield,Choicebox içeriklerinin nasıl olması gerektiği düşünülüp,plan yapıldı.Variable'ların FXML'e ve Controller'a  girişi yapıldı ve tanıtıldı.
+02.06.2020 | 3 Stunde | muayeneAsamasi ve yuzeyDurumu'nun seçeneklerinin farklı bir yerden eklenilebilmesi sağlanıldı.Gerekli yerlere günün tarihi otomatik gelmesi sağlandı.Firmen FXML dosyasında butonlar eklenildi ve fonksiyonel hale getirildi.Gerekli ChoiceBox'lara gerekli girişler yapıldı.
