@@ -121,7 +121,6 @@ Database.java | Database Verbindung von ganze Programm | connect(),getConnection
 
 
 ### **4 Stundenliste**
-
 Datum | Dauer | Beschreibung der Aktivität
 ----- | ----- | -------------------------
 18.04.2020 | 2 Stunde | Forschung über Pflichtenheft
@@ -152,3 +151,4 @@ Datum | Dauer | Beschreibung der Aktivität
 29.05.2020 | 3 Stunde | Bütün variable'lerin nasıl olması gerektiği ve Textfield,Choicebox içeriklerinin nasıl olması gerektiği düşünülüp,plan yapıldı.Variable'ların FXML'e ve Controller'a  girişi yapıldı ve tanıtıldı.
 01.06.2020 | 3 Stunde | muayeneAsamasi ve yuzeyDurumu'nun seçeneklerinin farklı bir yerden eklenilebilmesi sağlanıldı.Gerekli yerlere günün tarihi otomatik gelmesi sağlandı.Firmen FXML dosyasında butonlar eklenildi ve fonksiyonel hale getirildi.Gerekli ChoiceBox'lara gerekli girişler yapıldı.
 27.05.2020 | 3 Stunde | Database ile ilgili testler yapıldı ve çalışmayan methodlar değiştirildi.
+TOPLAM | 86 Stunde | -
