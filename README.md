@@ -125,18 +125,30 @@ Database.java | Database Verbindung von ganze Programm | connect(),getConnection
 Datum | Dauer | Beschreibung der Aktivität
 ----- | ----- | -------------------------
 18.04.2020 | 2 Stunde | Forschung über Pflichtenheft
-19.04.2020 | 4 Stunde | Pflichtenheft beendet
-22.04.2020 | 2 Stunde | Lernen JavaFX und Scene Builder
-23.04.2020 | 2 Stunde | Scene Builder Manyetik Parçacık Muayene Raporu
-24.04.2020 | 2 Stunde | HomePage Scene Builder
-25.04.2020 | 3 Stunde | Alle Scene Builder fertig
-26.04.2020 | 4 Stunde | Methoden für Scene Switching and etc
-27.04.2020 | 5 Stunde | SQLite Database und alle DBMethoden
-04.05.2020 | 3 Stunde | JavaFX Aktualisierung(Gui)
-07.05.2020 | 5 Stunde | SQLite, JavaFX und neue DB Aktualisierung
+19.04.2020 | 4 Stunde | Pflichtenheft çalışmaları tamamlandı.
+22.04.2020 | 2 Stunde | JavaFX ve Scene Builder'ın nasıl çalıştığı ve birbirleriyle bağlantısı öğrenildi ve bağlanıldı.
+23.04.2020 | 4 Stunde | Scene Builder bericht 1 çalışmaları yapıldı.GridLine ile benzeri çizildi gerekli yerlere ChoiceBox,gerekli yerlere TextField koyuldu.
+24.04.2020 | 2 Stunde | SceneBuilder ile HomePage girişi yapıldı.Log In ve Sign Up için butonlar yapıldı.
+25.04.2020 | 3 Stunde | Scene Builder ile Log In Page yapıldı.
+26.04.2020 | 4 Stunde | Scene Switching ve Buton çalışması hakkında araştırmalar yapıldı ve geliştirmeler eklendi.
+27.04.2020 | 5 Stunde | SQLite Database araştırması yapıldı ve Database methodları yazıldı.Java ile SQLite birleştirildi.
+04.05.2020 | 3 Stunde | Scene Builder'da database ve log in page ile ilgili geliştirmeler yapıldı.
+07.05.2020 | 5 Stunde | SQLite Database'i hakkında iyileştirmeler yapıldı ve database bağlantılarıyla ilgili sorunlar çözüldü.
 08.05.2020 | 2 Stunde | ein paar Änderungen mit SceneBuilder
 09.05.2020 | 2 Stunde | Arbeiten über Dokumentation
-11.05.2020 | 2 Stunde | JavaFX Aktualisierung
-13.05.2020 | 2 Stunde | Arbeiten über Dokumentation
-01.06.2020 | 3 Stunde | Bütün variable'lerin nasıl olması gerektiği ve Textfield,Choicebox içeriklerinin nasıl olması gerektiği düşünülüp,plan yapıldı.Variable'ların FXML'e ve Controller'a  girişi yapıldı ve tanıtıldı.
-02.06.2020 | 3 Stunde | muayeneAsamasi ve yuzeyDurumu'nun seçeneklerinin farklı bir yerden eklenilebilmesi sağlanıldı.Gerekli yerlere günün tarihi otomatik gelmesi sağlandı.Firmen FXML dosyasında butonlar eklenildi ve fonksiyonel hale getirildi.Gerekli ChoiceBox'lara gerekli girişler yapıldı.
+11.05.2020 | 2 Stunde | JavaFX ile ilgili geliştirmeler.
+13.05.2020 | 2 Stunde | Github üzerinde çalışmalar.Readme kısmının düzenlenmesi.
+13.05.2020 | 4 Stunde | Operatorler için ayrı bir Scene oluşturulup içine tableview ve TextFieldların konulması.Database'i tableviewe aktarılması ile ilgili çalışmalar ve araştırmalar.
+14.05.2020 | 4 Stunde | Operator Scene'inde methodların çalıştırılması(ekleme,silme,düzenleme)
+16.05.2020 | 3 Stunde | Operator için ayrı bir java class'ı oluşturulup bunların setter getter'larının tanımlanması.Tableview ile bunların birleştirilmesi.
+17.05.2020 | 4 Stunde | Operator Scene'inde database'den gelen bilgilerin gösterilmesi.
+19.05.2020 | 3 Stunde | Rapor için farklı bir scene oluşturulması.3 sekme ile ayrılıp,textfield ve choicebox'ların tanımlanması.Girilmesi, düzenlenmesi. 
+20.05.2020 | 4 Stunde | Log In ve Sign Up için database oluşturulması ve giriş kısmının şifresi ve username'i doğru değilse giriş yapılmasının engellenmesi.
+21.05.2020 | 2 Stunde | Raporlar için ve Sign Up kısmı için ayrı bir fxml dosyasının oluşturulması gerekli değişikliklerin yapılması.
+23.05.2020 | 4 Stunde | Scene'den PDF ve Excel'e aktarım için araştırmaların yapılması ve planın ona göre ayarlanması.Buna göre en son yapılan Rapor sayfasının geçerli olmayacağını belirleyip,ilk rapor sayfasına geçiş yapılması.
+24.05.2020 | 2 Stunde | Gridline ile çizilmiş Rapor FXML dosyasına Scene Builder üzerinden gerekli yazılar yazıldı.
+26.05.2020 | 3 Stunde | Projekt Dokumentation hakkında araştırma yapıldı ve UML ile ilgili değişiklikler yapıldı.
+27.05.2020 | 2 Stunde | Database ve Kodlar hakkında geliştirmeler.
+29.05.2020 | 3 Stunde | Bütün variable'lerin nasıl olması gerektiği ve Textfield,Choicebox içeriklerinin nasıl olması gerektiği düşünülüp,plan yapıldı.Variable'ların FXML'e ve Controller'a  girişi yapıldı ve tanıtıldı.
+01.06.2020 | 3 Stunde | muayeneAsamasi ve yuzeyDurumu'nun seçeneklerinin farklı bir yerden eklenilebilmesi sağlanıldı.Gerekli yerlere günün tarihi otomatik gelmesi sağlandı.Firmen FXML dosyasında butonlar eklenildi ve fonksiyonel hale getirildi.Gerekli ChoiceBox'lara gerekli girişler yapıldı.
+27.05.2020 | 3 Stunde | Database ile ilgili testler yapıldı ve çalışmayan methodlar değiştirildi.
