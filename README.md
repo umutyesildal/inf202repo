@@ -152,4 +152,5 @@ Datum | Dauer | Beschreibung der Aktivität
 01.06.2020 | 3 Stunde | muayeneAsamasi ve yuzeyDurumu'nun seçeneklerinin farklı bir yerden eklenilebilmesi sağlanıldı.Gerekli yerlere günün tarihi otomatik gelmesi sağlandı.Firmen FXML dosyasında butonlar eklenildi ve fonksiyonel hale getirildi.Gerekli ChoiceBox'lara gerekli girişler yapıldı.
 02.06.2020 | 3 Stunde | Database ile ilgili testler yapıldı ve çalışmayan methodlar değiştirildi.
 02.06.2020 | 3 Stunde | Rapor ile ilgili geliştirmeler yapıldı.Muayene Kapsami ChoiceBox ile değiştirildi.Rapor Database'i oluşturuldu ve Rapor scene oluşturuldu ve database aktarımı gerçekleştirildi.
+03.06.2020 | 1 Stunde | Database'lerin hepsi birleştirildi ve table'lara ayrıldı.berichtNummer için bir fonksiyon yazıldı ve işlendi.
 TOPLAM | 89 Stunde | -
