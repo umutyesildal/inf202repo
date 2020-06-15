@@ -154,4 +154,5 @@ Datum | Dauer | Beschreibung der Aktivität
 02.06.2020 | 3 Stunde | Rapor ile ilgili geliştirmeler yapıldı.Muayene Kapsami ChoiceBox ile değiştirildi.Rapor Database'i oluşturuldu ve Rapor scene oluşturuldu ve database aktarımı gerçekleştirildi.
 03.06.2020 | 4 Stunde | Database'lerin hepsi birleştirildi ve table'lara ayrıldı.berichtNummer için bir fonksiyon yazıldı ve işlendi.Database'e kayıtlar için hepsine bir notification koyuldu ve bir kaç bug çözüldü.
 07.06.2020| 3 Stunde | Firmen ve Operatoren kısmına Dialog box eklendi clear yapıldı ve bir kaç fonksiyon daha eklendi.
+15.06.2020| 2 Stunde | Dokumentation üzerinde değişiklikler ve choiceboxların populate edilmesi.
 TOPLAM | 89 Stunde | -
