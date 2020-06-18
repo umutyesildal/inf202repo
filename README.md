@@ -156,4 +156,5 @@ Datum | Dauer | Beschreibung der Aktivität
 07.06.2020| 3 Stunde | Firmen ve Operatoren kısmına Dialog box eklendi clear yapıldı ve bir kaç fonksiyon daha eklendi.
 15.06.2020| 2 Stunde | Dokumentation üzerinde değişiklikler ve choiceboxların populate edilmesi.
 17.06.2020| 3 Stunde | ChoiceBox'lardan alınan bilgilerin textfieldlara yazılmasının fonksiyonlarının girilmesi.Buttonla bunları yapılması.
+18.06.2020| 2 Stunde | Genel ölçüde neyin nasıl yapılması gerektiğiyle ilgili dialoglar eklendi.
 TOPLAM | 89 Stunde | -
