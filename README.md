@@ -159,4 +159,5 @@ Datum | Dauer | Beschreibung der Aktivität
 18.06.2020| 2 Stunde | Genel ölçüde neyin nasıl yapılması gerektiğiyle ilgili dialoglar eklendi.
 18.06.2020| 2 Stunde | Dokumentation için Design Layoutların resimleri alındı.Dokumentation düzenlendi.2. Kısımla ilgili değişiklikler yapıldı.LF LD LL kısımları düzenlendi.
 19.06.2020| 2 Stunde | Sonuc kısmının OK RED sonuçlarına göre düzenlenmesi eğer yanlışsa error çıkması yapıldı.
-TOPLAM | 107 Stunde | -
+19.06.2020| 2 Stunde | Zorunlu Kısımların boş kalmaması için fonksiyon yazıldı.
+TOPLAM | 109 Stunde | -
