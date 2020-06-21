@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.Tab?>
+<?import javafx.scene.control.TabPane?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Text?>
+
+
+<AnchorPane id="AnchorPane" prefHeight="600.0" prefWidth="800.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/11.0.1" fx:controller="inf202.Report1DenemeController">
+   <children>
+      <TabPane prefHeight="600.0" prefWidth="800.0" tabClosingPolicy="UNAVAILABLE">
+        <tabs>
+          <Tab text="Genel Bilgiler">
+            <content>
+              <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                     <children>
+                        <VBox layoutX="170.0" layoutY="26.0" prefHeight="552.0" prefWidth="160.0">
+                           <children>
+                              <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Müşteri / Customer " />
+                              <Text strokeType="OUTSIDE" strokeWidth="0.0" />
+                              <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Proje Adı / Project Name " />
+                              <Text strokeType="OUTSIDE" strokeWidth="0.0" />
+                              <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Test Yeri / Inspection Place " />
+                              <Text strokeType="OUTSIDE" strokeWidth="0.0" />
+                              <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Muayene Standardı / Inspection Standart" />
+                              <Text strokeType="OUTSIDE" strokeWidth="0.0" />
+                              <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Değerlen. Standardı / Evaluation Standart" />
+                              <Text strokeType="OUTSIDE" strokeWidth="0.0" />
+                              <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Muayene Prosedürü / Inspection Procedure" />
+                              <Text strokeType="OUTSIDE" strokeWidth="0.0" />
+                              <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Muayene Kapsamı / Inspection Scope " />
+                              <Text strokeType="OUTSIDE" strokeWidth="0.0" />
+                              <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Resim No / Drawing No " />
+                              <Text strokeType="OUTSIDE" strokeWidth="0.0" />
+                              <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Yüzey Durumu / Surface Condition" />
+                              <Text strokeType="OUTSIDE" strokeWidth="0.0" />
+                              <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Muayene Aşaması / Stage Of Examination" />
+                              <Text strokeType="OUTSIDE" strokeWidth="0.0" />
+                              <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Sayfa No / Page " />
+                              <Text strokeType="OUTSIDE" strokeWidth="0.0" />
+                              <Text layoutX="10.0" layoutY="361.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Rapor No / Report No" />
+                              <Text layoutX="10.0" layoutY="360.0" strokeType="OUTSIDE" strokeWidth="0.0" />
+                              <Text layoutX="10.0" layoutY="392.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Rapor Tarihi / Report Date" />
+                              <Text layoutX="10.0" layoutY="409.0" strokeType="OUTSIDE" strokeWidth="0.0" />
+                              <Text layoutX="10.0" layoutY="424.0" strokeType="OUTSIDE" strokeWidth="0.0" text=" İş Emri No / Job Order No" />
+                              <Text layoutX="10.0" layoutY="424.0" strokeType="OUTSIDE" strokeWidth="0.0" />
+                              <Text layoutX="10.0" layoutY="460.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Teklif No / Offer No" />
+                           </children>
+                        </VBox>
+                        <ChoiceBox layoutX="438.0" layoutY="26.0" maxHeight="20.0" maxWidth="130.0" minHeight="20.0" minWidth="100.0" prefHeight="20.0" prefWidth="130.0" />
+                        <ChoiceBox layoutX="438.0" layoutY="56.0" maxHeight="20.0" maxWidth="131.0" minHeight="20.0" minWidth="100.0" prefHeight="20.0" prefWidth="131.0" />
+                        <TextField layoutX="438.0" layoutY="85.0" prefHeight="25.0" prefWidth="134.0" />
+                        <TextField layoutX="438.0" layoutY="120.0" prefHeight="25.0" prefWidth="135.0" text="TS EN ISO 17638" />
+                        <TextField layoutX="438.0" layoutY="151.0" prefHeight="25.0" prefWidth="135.0" text="TS EN ISO 23278 Class B" />
+                        <TextField layoutX="438.0" layoutY="183.0" prefHeight="25.0" prefWidth="135.0" text="P-101-004" />
+                        <TextField layoutX="438.0" layoutY="216.0" prefHeight="25.0" prefWidth="135.0" />
+                        <TextField layoutX="438.0" layoutY="247.0" prefHeight="25.0" prefWidth="135.0" />
+                        <ChoiceBox layoutX="438.0" layoutY="282.0" maxHeight="20.0" maxWidth="131.0" minHeight="20.0" minWidth="100.0" prefHeight="20.0" prefWidth="131.0" />
+                        <ChoiceBox layoutX="438.0" layoutY="312.0" maxHeight="20.0" maxWidth="131.0" minHeight="20.0" minWidth="100.0" prefHeight="20.0" prefWidth="131.0" />
+                        <TextField layoutX="438.0" layoutY="341.0" prefHeight="25.0" prefWidth="135.0" text="1" />
+                        <TextField layoutX="438.0" layoutY="372.0" prefHeight="25.0" prefWidth="135.0" text="2019101621" />
+                        <TextField layoutX="438.0" layoutY="406.0" prefHeight="25.0" prefWidth="135.0" text="Tarih" />
+                     </children>
+                  </AnchorPane>
+            </content>
+          </Tab>
+          <Tab text="Ekipman Bilgileri">
+            <content>
+              <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                     <children>
+                        <VBox layoutX="8.0" layoutY="10.0" prefHeight="552.0" prefWidth="160.0">
+                           <children>
+                              <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Kutup Mesafesi,mm / Pole Distance" />
+                              <Text strokeType="OUTSIDE" strokeWidth="0.0" />
+                              <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Cihaz / Equipment" />
+                              <Text strokeType="OUTSIDE" strokeWidth="0.0" />
+                              <Text strokeType="OUTSIDE" strokeWidth="0.0" text="MP Taşıyıcı Ortam / MP Carrier Medium" />
+                              <Text layoutX="10.0" layoutY="103.0" strokeType="OUTSIDE" strokeWidth="0.0" />
+                              <Text strokeType="OUTSIDE" strokeWidth="0.0" />
+                              <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Mıknatıslama Tekniği / Mag.Tech." />
+                              <Text strokeType="OUTSIDE" strokeWidth="0.0" />
+                              <Text strokeType="OUTSIDE" strokeWidth="0.0" text="UV Işık Şiddeti / UV Light Intensity" />
+                              <Text strokeType="OUTSIDE" strokeWidth="0.0" />
+                              <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Işık mesafesi / Distance of Light" />
+                              <Text strokeType="OUTSIDE" strokeWidth="0.0" />
+                              <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Muayene Bölgesi / Examination Area" />
+                              <Text strokeType="OUTSIDE" strokeWidth="0.0" />
+                              <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Akım Tipi / Current Type" />
+                              <Text strokeType="OUTSIDE" strokeWidth="0.0" />
+                              <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Luxmetre Işık Şiddeti /Luxmeter" />
+                              <Text strokeType="OUTSIDE" strokeWidth="0.0" />
+                              <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Muayene Ortamı / Test Medium" />
+                              <Text strokeType="OUTSIDE" strokeWidth="0.0" />
+                              <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Mıknatıs Giderimi / Demagnetization" />
+                              <Text strokeType="OUTSIDE" strokeWidth="0.0" />
+                              <Text layoutX="10.0" layoutY="361.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Isıl İşlem / Heat Treatment" />
+                              <Text layoutX="10.0" layoutY="360.0" strokeType="OUTSIDE" strokeWidth="0.0" />
+                              <Text layoutX="10.0" layoutY="392.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Yüzey Sıcaklığı (ºC) /Surface Temperature" />
+                              <Text layoutX="10.0" layoutY="409.0" strokeType="OUTSIDE" strokeWidth="0.0" />
+                              <Text layoutX="10.0" layoutY="424.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Muayene Bölgesindeki Alan Şiddeti, kA/m" />
+                              <Text layoutX="10.0" layoutY="424.0" strokeType="OUTSIDE" strokeWidth="0.0" />
+                              <Text layoutX="10.0" layoutY="460.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Yüzey/ Surface Condition" />
+                              <Text layoutX="10.0" layoutY="458.0" strokeType="OUTSIDE" strokeWidth="0.0" />
+                              <Text layoutX="10.0" layoutY="474.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Işık Cihazı Tanımı / Identification of Light Equip." />
+                              <Text layoutX="10.0" layoutY="490.0" strokeType="OUTSIDE" strokeWidth="0.0" />
+                              <Text layoutX="10.0" layoutY="506.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Kaldırma Testi Tarih / No Lifting Test Date / Number" />
+                           </children>
+                        </VBox>
+                        <ChoiceBox layoutX="284.0" layoutY="40.0" maxHeight="20.0" maxWidth="130.0" minHeight="20.0" minWidth="100.0" prefHeight="20.0" prefWidth="130.0" />
+                        <TextField layoutX="284.0" layoutY="10.0" prefHeight="25.0" prefWidth="135.0" text="ekipman" />
+                        <TextField layoutX="284.0" layoutY="71.0" prefHeight="41.0" prefWidth="135.0" text="ekipman" />
+                        <TextField layoutX="284.0" layoutY="118.0" prefHeight="25.0" prefWidth="135.0" text="ekipman" />
+                        <TextField layoutX="284.0" layoutY="152.0" prefHeight="25.0" prefWidth="135.0" text="ekipman" />
+                        <TextField layoutX="284.0" layoutY="185.0" prefHeight="25.0" prefWidth="135.0" text="ekipman" />
+                        <TextField layoutX="284.0" layoutY="216.0" prefHeight="25.0" prefWidth="135.0" text="KAYNAK+HAZ" />
+                        <ChoiceBox layoutX="284.0" layoutY="249.0" maxHeight="20.0" maxWidth="130.0" minHeight="20.0" minWidth="100.0" prefHeight="20.0" prefWidth="130.0" />
+                        <TextField layoutX="284.0" layoutY="286.0" prefHeight="25.0" prefWidth="135.0" text="1200 Lux" />
+                        <TextField layoutX="284.0" layoutY="317.0" prefHeight="25.0" prefWidth="135.0" />
+                        <TextField layoutX="284.0" layoutY="349.0" prefHeight="25.0" prefWidth="135.0" />
+                        <TextField layoutX="284.0" layoutY="380.0" prefHeight="25.0" prefWidth="135.0" />
+                        <TextField layoutX="284.0" layoutY="412.0" prefHeight="25.0" prefWidth="135.0" />
+                        <TextField layoutX="284.0" layoutY="444.0" prefHeight="25.0" prefWidth="135.0" text="3.2 kA/m" />
+                        <TextField layoutX="284.0" layoutY="477.0" prefHeight="25.0" prefWidth="135.0" text="TAŞLANMIŞ / GRINDING" />
+                        <TextField layoutX="284.0" layoutY="508.0" prefHeight="25.0" prefWidth="135.0" text="***" />
+                        <TextField layoutX="284.0" layoutY="545.0" prefHeight="25.0" prefWidth="135.0" />
+                        <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="504.0" layoutY="10.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@image/1s.PNG" />
+                           </image>
+                        </ImageView>
+                        <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="504.0" layoutY="144.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@image/2..PNG" />
+                           </image>
+                        </ImageView>
+                        <CheckBox layoutX="713.0" layoutY="110.0" mnemonicParsing="false" />
+                        <CheckBox layoutX="713.0" layoutY="233.0" mnemonicParsing="false" />
+                        <Text layoutX="504.0" layoutY="303.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Standarttan Sapmalar/ Standard Deviations" />
+                        <Text layoutX="505.0" layoutY="378.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Muayene Tarihleri / Inspection Dates " />
+                        <Text layoutX="504.0" layoutY="449.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Açıklamalar ve Ekler / Description and Attachments" />
+                        <TextField layoutX="504.0" layoutY="317.0" prefHeight="25.0" prefWidth="232.0" text="Standarttan sapma yoktur." />
+                        <TextField layoutX="504.0" layoutY="393.0" prefHeight="25.0" prefWidth="232.0" text="TARIH GELCEK" />
+                        <TextArea layoutX="504.0" layoutY="459.0" prefHeight="98.0" prefWidth="271.0" />
+                     </children>
+                  </AnchorPane>
+            </content>
+          </Tab>
+            <Tab text="Muayene Sonuçları">
+              <content>
+                <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                     <children>
+                        <TableView prefHeight="366.0" prefWidth="800.0">
+                          <columns>
+                            <TableColumn prefWidth="48.0" text="Sıra No" />
+                            <TableColumn prefWidth="177.0" text="Kaynak/ Parça No" />
+                              <TableColumn minWidth="0.0" prefWidth="0.0" text="C1" />
+                              <TableColumn prefWidth="77.0" text="Kontrol U." />
+                              <TableColumn prefWidth="82.0" text="Kaynak Yön" />
+                              <TableColumn prefWidth="82.0" text="Kalınlık (mm)" />
+                              <TableColumn prefWidth="79.0" text="Çap (mm)" />
+                              <TableColumn prefWidth="84.0" text="Hata Tipi" />
+                              <TableColumn prefWidth="103.0" text="Hatanın Yeri" />
+                              <TableColumn prefWidth="67.0" text="Sonuç" />
+                          </columns>
+                        </TableView>
+                        <GridPane gridLinesVisible="true" layoutY="366.0" prefHeight="205.0" prefWidth="800.0">
+                          <columnConstraints>
+                              <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                              <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                              <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                              <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                          </columnConstraints>
+                          <rowConstraints>
+                            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                              <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                              <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                          </rowConstraints>
+                           <children>
+                              <Text strokeType="OUTSIDE" strokeWidth="0.0" text="  Personel Bilgileri / Person Infor. " wrappingWidth="154.240234375" />
+                              <Text strokeType="OUTSIDE" strokeWidth="0.0" text="  Adı Soyadı / Name Surname " GridPane.rowIndex="1" />
+                              <Text strokeType="OUTSIDE" strokeWidth="0.0" text="  Seviye / Level" GridPane.rowIndex="2" />
+                              <Text strokeType="OUTSIDE" strokeWidth="0.0" text="  Tarih / Date" GridPane.rowIndex="3" />
+                              <Text strokeType="OUTSIDE" strokeWidth="0.0" text="  İmza / Signature" GridPane.rowIndex="4" />
+                              <Text strokeType="OUTSIDE" strokeWidth="0.0" text="  Operatör/ Operator" GridPane.columnIndex="1" />
+                              <Text strokeType="OUTSIDE" strokeWidth="0.0" text=" Değerlendiren/ Evaluated by " GridPane.columnIndex="2" />
+                              <Text strokeType="OUTSIDE" strokeWidth="0.0" text="  Onay/ Confirmation " GridPane.columnIndex="3" />
+                              <Text strokeType="OUTSIDE" strokeWidth="0.0" text="  Müşteri/ Customer" GridPane.columnIndex="4" />
+                           </children>
+                        </GridPane>
+                     </children>
+                  </AnchorPane>
+              </content>
+            </Tab>
+        </tabs>
+      </TabPane>
+   </children>
+</AnchorPane>

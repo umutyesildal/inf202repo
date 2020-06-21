@@ -1,0 +1,377 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<ScrollPane prefHeight="775.0" prefWidth="1207.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="inf202.FXMLDocumentController">
+   <content>
+      <AnchorPane fx:id="ap" minHeight="0.0" minWidth="0.0" prefHeight="1635.0" prefWidth="1192.0">
+         <children>
+            <GridPane gridLinesVisible="true" layoutX="234.0" prefHeight="120.0" prefWidth="955.0">
+               <columnConstraints>
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+               </columnConstraints>
+               <rowConstraints>
+                  <RowConstraints maxHeight="41.0" minHeight="10.0" prefHeight="41.0" vgrow="SOMETIMES" />
+                  <RowConstraints maxHeight="43.0" minHeight="10.0" prefHeight="39.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+               </rowConstraints>
+               <children>
+                  <Text fill="#dd0000" strokeType="OUTSIDE" strokeWidth="0.0" text=" GÖZETİM MUAYENE VE EĞİTİM HİZMETLERİ" textAlignment="CENTER" wrappingWidth="835.44921875">
+                     <font>
+                        <Font size="17.0" />
+                     </font></Text>
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="MANYETİK PARÇACIK MUAYENE RAPORU" textAlignment="CENTER" wrappingWidth="840.12939453125" GridPane.rowIndex="1">
+                     <font>
+                        <Font name="System Bold" size="25.0" />
+                     </font>
+                  </Text>
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="MAGNETIC PARTICLE INSPECTION REPORT" textAlignment="CENTER" wrappingWidth="832.583984375" GridPane.rowIndex="2">
+                     <font>
+                        <Font size="17.0" />
+                     </font></Text>
+               </children>
+            </GridPane>
+            <GridPane gridLinesVisible="true" layoutY="120.0" prefHeight="206.0" prefWidth="1190.0">
+               <columnConstraints>
+                  <ColumnConstraints hgrow="SOMETIMES" maxWidth="168.0" minWidth="10.0" prefWidth="135.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" maxWidth="341.0" minWidth="10.0" prefWidth="341.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" maxWidth="246.0" minWidth="10.0" prefWidth="181.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" maxWidth="342.0" minWidth="10.0" prefWidth="229.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" maxWidth="408.0" minWidth="10.0" prefWidth="150.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" maxWidth="386.0" minWidth="10.0" prefWidth="151.0" />
+               </columnConstraints>
+               <rowConstraints>
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+               </rowConstraints>
+               <children>
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Müşteri Customer " wrappingWidth="96.845703125" x="10.0" />
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Proje Adı Project Name " wrappingWidth="84.375" GridPane.rowIndex="1" />
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Test Yeri Inspection Place " wrappingWidth="94.86328125" GridPane.rowIndex="2" />
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Muayene Standardı Inspection Standart" wrappingWidth="108.828125" GridPane.rowIndex="3" />
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Değerlen. Standardı Evaluation Standart" wrappingWidth="110.5625" GridPane.rowIndex="4" />
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Muayene ProsedürüI Inspection Procedure" wrappingWidth="105.6533203125" GridPane.columnIndex="2">
+                     <font>
+                        <Font size="11.0" />
+                     </font>
+                  </Text>
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Muayene Kapsamı Inspection Scope " wrappingWidth="106.552734375" GridPane.columnIndex="2" GridPane.rowIndex="1" />
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Resim No (ZD)" GridPane.columnIndex="2" GridPane.rowIndex="2" />
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Yüzey Durumu" GridPane.columnIndex="2" GridPane.rowIndex="3" />
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Muayene Aşaması" GridPane.columnIndex="2" GridPane.rowIndex="4" />
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Sayfa No" GridPane.columnIndex="4" />
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Rapor No" GridPane.columnIndex="4" GridPane.rowIndex="1" />
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Rapor Tarihi" GridPane.columnIndex="4" GridPane.rowIndex="2" />
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text=" İş Emri No" GridPane.columnIndex="4" GridPane.rowIndex="3" />
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Teklif No" GridPane.columnIndex="4" GridPane.rowIndex="4" />
+                  <ChoiceBox fx:id="musteriCB" prefHeight="25.0" prefWidth="201.0" GridPane.columnIndex="1" />
+                  <ChoiceBox fx:id="yuzeyDurumuCB" prefHeight="25.0" prefWidth="172.0" GridPane.columnIndex="3" GridPane.rowIndex="3" />
+                  <ChoiceBox fx:id="muayeneAsamasiCB" prefHeight="25.0" prefWidth="173.0" GridPane.columnIndex="3" GridPane.rowIndex="4" />
+                  <TextField fx:id="muayeneStandartiTF" prefHeight="25.0" prefWidth="135.0" text="TS EN ISO 17638" GridPane.columnIndex="1" GridPane.rowIndex="3" />
+                  <TextField fx:id="degerlendirmeStandartıTF" prefHeight="25.0" prefWidth="135.0" text="TS EN ISO 23278 Class B" GridPane.columnIndex="1" GridPane.rowIndex="4" />
+                  <TextField fx:id="muayeneProseduruTF" prefHeight="25.0" prefWidth="135.0" text="P-101-004" GridPane.columnIndex="3" />
+                  <TextField fx:id="sayfaNoTF" prefHeight="25.0" prefWidth="135.0" text="1" GridPane.columnIndex="5" />
+                  <TextField fx:id="raporNoTF" editable="false" prefHeight="25.0" prefWidth="135.0" GridPane.columnIndex="5" GridPane.rowIndex="1" />
+                  <TextField fx:id="raporTarihiTF" editable="false" prefHeight="25.0" prefWidth="135.0" GridPane.columnIndex="5" GridPane.rowIndex="2" />
+                  <TextField fx:id="testYeriTF" text="Müşteri seçilince otomatik gelecek." GridPane.columnIndex="1" GridPane.rowIndex="2" />
+                  <TextField fx:id="resimNoTF" GridPane.columnIndex="3" GridPane.rowIndex="2" />
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="\%" textAlignment="RIGHT" wrappingWidth="64.8203125" GridPane.columnIndex="3" GridPane.rowIndex="1" />
+                  <TextField fx:id="isEmriNoTF" text="Müşteri seçilince otomatik gelecek." GridPane.columnIndex="5" GridPane.rowIndex="3" />
+                  <TextField fx:id="teklifNoTF" text="Müşteri seçilince otomatik gelecek." GridPane.columnIndex="5" GridPane.rowIndex="4" />
+                  <TextField fx:id="projeAdiTF" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+                  <ChoiceBox fx:id="muayeneKapsamiCB" prefHeight="25.0" prefWidth="48.0" GridPane.columnIndex="3" GridPane.rowIndex="1" />
+               </children>
+            </GridPane>
+            <GridPane gridLinesVisible="true" layoutY="326.0" prefHeight="30.0" prefWidth="1190.0">
+               <columnConstraints>
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+               </columnConstraints>
+               <rowConstraints>
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+               </rowConstraints>
+               <children>
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Ekipman Bilgileri/ Equipment Informations" textAlignment="CENTER" wrappingWidth="1190.0">
+                     <font>
+                        <Font name="System Bold" size="16.0" />
+                     </font></Text>
+               </children>
+            </GridPane>
+            <GridPane gridLinesVisible="true" layoutY="356.0" prefHeight="292.0" prefWidth="1190.0">
+               <columnConstraints>
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" maxWidth="176.0" minWidth="10.0" prefWidth="91.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" maxWidth="168.0" minWidth="10.0" prefWidth="165.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" maxWidth="227.0" minWidth="10.0" prefWidth="226.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" maxWidth="206.0" minWidth="10.0" prefWidth="196.0" />
+               </columnConstraints>
+               <rowConstraints>
+                  <RowConstraints maxHeight="42.0" minHeight="10.0" prefHeight="42.0" vgrow="SOMETIMES" />
+                  <RowConstraints maxHeight="90.0" minHeight="10.0" prefHeight="54.0" vgrow="SOMETIMES" />
+                  <RowConstraints maxHeight="98.0" minHeight="10.0" prefHeight="62.0" vgrow="SOMETIMES" />
+                  <RowConstraints maxHeight="56.0" minHeight="0.0" prefHeight="49.0" vgrow="SOMETIMES" />
+                  <RowConstraints maxHeight="65.0" minHeight="10.0" prefHeight="42.0" vgrow="SOMETIMES" />
+                  <RowConstraints maxHeight="41.0" minHeight="10.0" prefHeight="41.0" vgrow="SOMETIMES" />
+               </rowConstraints>
+               <children>
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Kutup Mesafesi,mm Pole Distance" wrappingWidth="117.203125" />
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Cihaz Equipment" wrappingWidth="68.302734375" GridPane.rowIndex="1" />
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="MP Taşıyıcı Ortam MP Carrier Medium" wrappingWidth="113.08984375" GridPane.rowIndex="2" />
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Mıknatıslama Tekniği Mag.Tech." wrappingWidth="115.87890625" GridPane.rowIndex="3" />
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="UV Işık Şiddeti UV Light Intensity" wrappingWidth="94.115234375" GridPane.rowIndex="4" />
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Işık mesafesi Distance of Light" wrappingWidth="100.6015625" GridPane.rowIndex="5" />
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Muayene Bölgesi Examination Area" wrappingWidth="123.748046875" GridPane.columnIndex="2" />
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Akım Tipi Current Type" wrappingWidth="75.083984375" GridPane.columnIndex="2" GridPane.rowIndex="1" />
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Luxmetre/Işık Şiddeti Luxmeter" wrappingWidth="120.212890625" GridPane.columnIndex="2" GridPane.rowIndex="2" />
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Muayene Ortamı Test Medium  (ZD)" wrappingWidth="112.185546875" GridPane.columnIndex="2" GridPane.rowIndex="3" />
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Mıknatıs Giderimi Demagnetization (ZD)" wrappingWidth="150.544921875" GridPane.columnIndex="2" GridPane.rowIndex="4" />
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Isıl İşlem                           Heat Treatment  (ZD)" wrappingWidth="149.103515625" GridPane.columnIndex="2" GridPane.rowIndex="5" />
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Yüzey Sıcaklığı (ºC) Surface Temperature" wrappingWidth="128.427734375" GridPane.columnIndex="4" />
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Muayene Bölgesindeki Alan Şiddeti, kA/m Gauss Field Strength" wrappingWidth="224.65234375" GridPane.columnIndex="4" GridPane.rowIndex="1" />
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Yüzey             Surface Condition" wrappingWidth="98.54296875" GridPane.columnIndex="4" GridPane.rowIndex="2" />
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Işık Cihazı Tanımı Identification of Light Equip." wrappingWidth="158.935546875" GridPane.columnIndex="4" GridPane.rowIndex="4" />
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Kaldırma Testi Tarih / No Lifting Test Date / Number" wrappingWidth="142.71875" GridPane.columnIndex="4" GridPane.rowIndex="5" />
+                  <TextField fx:id="kutupMesafesiTF" text="Cihaz seçilince otomatik gelecek." GridPane.columnIndex="1" />
+                  <TextField fx:id="mpTasiyiciOrtamTF" text="Cihaz seçilince otomatik gelecek." GridPane.columnIndex="1" GridPane.rowIndex="2" />
+                  <TextField fx:id="UVIsikSiddetiTF" text="Cihaz seçilince otomatik gelecek." GridPane.columnIndex="1" GridPane.rowIndex="4" />
+                  <TextField fx:id="isikMesafesiTF" text="Cihaz seçilince otomatik gelecek." GridPane.columnIndex="1" GridPane.rowIndex="5" />
+                  <TextField fx:id="muayeneBolgesiTF" text="KAYNAK+HAZ" GridPane.columnIndex="3" />
+                  <TextField fx:id="luxmetreTF" text="1200 Lux" GridPane.columnIndex="3" GridPane.rowIndex="2" />
+                  <TextField fx:id="muayeneOrtamiTF" GridPane.columnIndex="3" GridPane.rowIndex="3" />
+                  <TextField fx:id="miknatisGiderimiTF" GridPane.columnIndex="3" GridPane.rowIndex="4" />
+                  <TextField fx:id="isilIslemTF" GridPane.columnIndex="3" GridPane.rowIndex="5" />
+                  <TextField fx:id="yuzeySicakligiTF" GridPane.columnIndex="5" />
+                  <TextField fx:id="muayeneBolgesiSiddetiTF" text="3.2 kA/m" GridPane.columnIndex="5" GridPane.rowIndex="1" />
+                  <TextField fx:id="yuzeyTF" text="TAŞLANMIŞ /GRINDING" GridPane.columnIndex="5" GridPane.rowIndex="2" />
+                  <TextField fx:id="isikCihaziTanimiTF" text="***" GridPane.columnIndex="5" GridPane.rowIndex="4" />
+                  <TextField fx:id="kaldirmaTestiTarihNoTF" GridPane.columnIndex="5" GridPane.rowIndex="5" />
+                  <ChoiceBox fx:id="cihazCB" prefWidth="150.0" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+                  <ChoiceBox fx:id="akimTipiCB" prefWidth="150.0" GridPane.columnIndex="3" GridPane.rowIndex="1" />
+                  <TextField fx:id="miknatislamaTeknigiTF" text="Cihaz seçilince otomatik gelecek." GridPane.columnIndex="1" GridPane.rowIndex="3" />
+               </children>
+            </GridPane>
+            <GridPane gridLinesVisible="true" layoutY="648.0" prefHeight="32.0" prefWidth="1190.0">
+               <columnConstraints>
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+               </columnConstraints>
+               <rowConstraints>
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+               </rowConstraints>
+               <children>
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Süreksizliğin Yeri / Location of Discontinuity" textAlignment="CENTER" wrappingWidth="1186.697265625">
+                     <font>
+                        <Font name="System Bold" size="16.0" />
+                     </font></Text>
+               </children>
+            </GridPane>
+            <GridPane gridLinesVisible="true" layoutX="628.0" layoutY="680.0" prefHeight="152.0" prefWidth="561.0">
+               <columnConstraints>
+                  <ColumnConstraints hgrow="SOMETIMES" maxWidth="358.0" minWidth="10.0" prefWidth="124.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" maxWidth="405.0" minWidth="10.0" prefWidth="304.0" />
+               </columnConstraints>
+               <rowConstraints>
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+               </rowConstraints>
+               <children>
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text=" BM" textAlignment="CENTER" wrappingWidth="109.94140625">
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font>
+                  </Text>
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="HAZ" textAlignment="CENTER" wrappingWidth="116.103515625" GridPane.rowIndex="1">
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font>
+                  </Text>
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text=" W" textAlignment="CENTER" wrappingWidth="114.783203125" GridPane.rowIndex="2" />
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="B" textAlignment="CENTER" wrappingWidth="115.87890625" GridPane.rowIndex="3" />
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Ana Metal / Base Metal" GridPane.columnIndex="1" />
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Isıdan etkilenen bölge / Heat afffected zone" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Kaynak / Weld" wrappingWidth="235.44140625" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Kaynak ağzı / Bevel " wrappingWidth="250.146484375" GridPane.columnIndex="1" GridPane.rowIndex="3" />
+               </children>
+            </GridPane>
+            <GridPane layoutY="680.0" prefHeight="152.0" prefWidth="622.0">
+               <columnConstraints>
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+               </columnConstraints>
+               <rowConstraints>
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+               </rowConstraints>
+               <children>
+                  <ImageView fitHeight="152.0" fitWidth="310.0" pickOnBounds="true">
+                     <image>
+                        <Image url="@image/1s.PNG" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="152.0" fitWidth="313.0" pickOnBounds="true" GridPane.columnIndex="1">
+                     <image>
+                        <Image url="@image/2..PNG" />
+                     </image>
+                  </ImageView>
+                  <CheckBox mnemonicParsing="false" />
+                  <CheckBox mnemonicParsing="false" GridPane.columnIndex="1" />
+               </children>
+            </GridPane>
+            <GridPane gridLinesVisible="true" layoutY="832.0" prefHeight="120.0" prefWidth="1190.0">
+               <columnConstraints>
+                  <ColumnConstraints hgrow="SOMETIMES" maxWidth="666.0" minWidth="10.0" prefWidth="293.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" maxWidth="958.0" minWidth="10.0" prefWidth="897.0" />
+               </columnConstraints>
+               <rowConstraints>
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+               </rowConstraints>
+               <children>
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Standarttan Sapmalar Standard Deviations" wrappingWidth="132.81640625" />
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Muayene Tarihleri Inspection Dates" wrappingWidth="129.900390625" GridPane.rowIndex="1" />
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Açıklamalar ve Ekler Description and Attachments  (ZD)" wrappingWidth="170.7265625" GridPane.rowIndex="2" />
+                  <TextField fx:id="standartSapmalarTF" prefWidth="781.0" text="Standarttan sapma yoktur." GridPane.columnIndex="1" />
+                  <TextField fx:id="muayeneTarihleriTF" text="Otomatik tarih gelcek" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+                  <TextField fx:id="aciklamaEklerTF" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+               </children>
+            </GridPane>
+            <GridPane gridLinesVisible="true" layoutX="1.0" layoutY="952.0" prefHeight="30.0" prefWidth="1190.0">
+               <columnConstraints>
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+               </columnConstraints>
+               <rowConstraints>
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+               </rowConstraints>
+               <children>
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Muayene Sonuçları / Inspection Results" textAlignment="CENTER" wrappingWidth="1189.41015625">
+                     <font>
+                        <Font name="System Bold" size="16.0" />
+                     </font></Text>
+               </children>
+            </GridPane>
+            <GridPane gridLinesVisible="true" layoutY="982.0" prefHeight="384.0" prefWidth="1190.0">
+              <columnConstraints>
+                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+              </columnConstraints>
+              <rowConstraints>
+                  <RowConstraints maxHeight="37.0" minHeight="10.0" prefHeight="37.0" vgrow="SOMETIMES" />
+                  <RowConstraints maxHeight="23.0" minHeight="10.0" prefHeight="23.0" vgrow="SOMETIMES" />
+                  <RowConstraints maxHeight="25.0" minHeight="10.0" prefHeight="21.0" vgrow="SOMETIMES" />
+                  <RowConstraints maxHeight="25.0" minHeight="10.0" prefHeight="25.0" vgrow="SOMETIMES" />
+                  <RowConstraints maxHeight="28.0" minHeight="10.0" prefHeight="25.0" vgrow="SOMETIMES" />
+                  <RowConstraints maxHeight="29.0" minHeight="10.0" prefHeight="24.0" vgrow="SOMETIMES" />
+                  <RowConstraints maxHeight="28.0" minHeight="10.0" prefHeight="28.0" vgrow="SOMETIMES" />
+                  <RowConstraints maxHeight="30.0" minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints maxHeight="32.0" minHeight="10.0" prefHeight="32.0" vgrow="SOMETIMES" />
+                  <RowConstraints maxHeight="24.0" minHeight="10.0" prefHeight="23.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+              </rowConstraints>
+               <children>
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Sıra No Serial No" />
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Kaynak/ Parça No Weld/ Piece No" wrappingWidth="108.361328125" GridPane.columnIndex="1" />
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Kontrol Uzun. Test Lenght" wrappingWidth="89.033203125" GridPane.columnIndex="2" />
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Kaynak Yön. Welding Process" wrappingWidth="87.798828125" GridPane.columnIndex="3" />
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Kalınlık (mm) Thickness" wrappingWidth="91.677734375" GridPane.columnIndex="4" />
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Çap (mm) Diameter  (ZD)" wrappingWidth="81.62890625" GridPane.columnIndex="5" />
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Hata Tipi Defect Type" wrappingWidth="71.56640625" GridPane.columnIndex="6" />
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Hatanın Yeri Defect Loc." wrappingWidth="92.287109375" GridPane.columnIndex="7" />
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Sonuç Result" wrappingWidth="49.126953125" GridPane.columnIndex="8" />
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="1" textAlignment="CENTER" wrappingWidth="134.46875" GridPane.rowIndex="1" />
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="2" textAlignment="CENTER" wrappingWidth="133.46875" GridPane.rowIndex="2" />
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="3" textAlignment="CENTER" wrappingWidth="131.46875" GridPane.rowIndex="3" />
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="4" textAlignment="CENTER" wrappingWidth="133.46875" GridPane.rowIndex="4" />
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="5" textAlignment="CENTER" wrappingWidth="131.46875" GridPane.rowIndex="5" />
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="6" textAlignment="CENTER" wrappingWidth="133.46875" GridPane.rowIndex="6" />
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="7" textAlignment="CENTER" wrappingWidth="131.46875" GridPane.rowIndex="7" />
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="8" textAlignment="CENTER" wrappingWidth="134.46875" GridPane.rowIndex="8" />
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="9" textAlignment="CENTER" wrappingWidth="133.46875" GridPane.rowIndex="9" />
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="10" textAlignment="CENTER" wrappingWidth="131.9375" GridPane.rowIndex="10" />
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="11" textAlignment="CENTER" wrappingWidth="131.9375" GridPane.rowIndex="11" />
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="12" textAlignment="CENTER" wrappingWidth="131.9375" GridPane.rowIndex="12" />
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="13" textAlignment="CENTER" wrappingWidth="133.9375" GridPane.rowIndex="13" />
+                  <TextField fx:id="kaynakParcaNoTF" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+                  <TextField fx:id="kontrolUzunTF" GridPane.columnIndex="2" GridPane.rowIndex="1" />
+                  <TextField fx:id="kaynakYonTF" GridPane.columnIndex="3" GridPane.rowIndex="1" />
+                  <TextField fx:id="kalinlikTF" GridPane.columnIndex="4" GridPane.rowIndex="1" />
+                  <TextField fx:id="capTF" GridPane.columnIndex="5" GridPane.rowIndex="1" />
+                  <TextField fx:id="hataTipiTF" GridPane.columnIndex="6" GridPane.rowIndex="1" />
+                  <TextField fx:id="hataninYeriTF" GridPane.columnIndex="7" GridPane.rowIndex="1" />
+                  <ChoiceBox fx:id="sonucCB" prefWidth="150.0" GridPane.columnIndex="8" GridPane.rowIndex="1" />
+               </children>
+            </GridPane>
+            <GridPane gridLinesVisible="true" layoutY="1366.0" prefHeight="265.0" prefWidth="1190.0">
+               <columnConstraints>
+                  <ColumnConstraints hgrow="SOMETIMES" maxWidth="146.0" minWidth="10.0" prefWidth="126.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" maxWidth="318.0" minWidth="10.0" prefWidth="281.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" maxWidth="422.0" minWidth="10.0" prefWidth="328.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" maxWidth="360.0" minWidth="10.0" prefWidth="223.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" maxWidth="175.0" minWidth="0.0" prefWidth="175.0" />
+               </columnConstraints>
+               <rowConstraints>
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints maxHeight="42.0" minHeight="10.0" prefHeight="39.0" vgrow="SOMETIMES" />
+                  <RowConstraints maxHeight="46.0" minHeight="10.0" prefHeight="42.0" vgrow="SOMETIMES" />
+                  <RowConstraints maxHeight="89.0" minHeight="10.0" prefHeight="89.0" vgrow="SOMETIMES" />
+               </rowConstraints>
+               <children>
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Personel Bilgileri / Person. Infor. " wrappingWidth="105.52734375" />
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Adı Soyadı / Name Surname " wrappingWidth="122.654296875" GridPane.rowIndex="1" />
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Seviye / Level" GridPane.rowIndex="2" />
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Tarih / Date" GridPane.rowIndex="3" />
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="İmza / Signature" GridPane.rowIndex="4" />
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Operatör/ Operator" GridPane.columnIndex="1" />
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Değerlendiren/ Evaluated by " wrappingWidth="122.919921875" GridPane.columnIndex="2" />
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Onay/ Confirmation " GridPane.columnIndex="3" />
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Müşteri/ Customer" GridPane.columnIndex="4" />
+                  <ChoiceBox fx:id="operatorCB" prefWidth="150.0" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+                  <ChoiceBox fx:id="degerlendirenCB" prefWidth="150.0" GridPane.columnIndex="2" GridPane.rowIndex="1" />
+                  <ChoiceBox fx:id="onayCB" prefWidth="150.0" GridPane.columnIndex="3" GridPane.rowIndex="1" />
+                  <TextField fx:id="operatorLevelTF" text="Operator seçilince otomatik gelecek." GridPane.columnIndex="1" GridPane.rowIndex="2" />
+                  <TextField fx:id="degerlendirenLevelTF" text="Operator seçilince otomatik gelecek." GridPane.columnIndex="2" GridPane.rowIndex="2" />
+                  <TextField fx:id="onayLevelTF" text="Operator seçilince otomatik gelecek." GridPane.columnIndex="3" GridPane.rowIndex="2" />
+                  <TextField fx:id="operatorTarihTF" GridPane.columnIndex="1" GridPane.rowIndex="3" />
+                  <TextField fx:id="degerlendirenTarihTF" GridPane.columnIndex="2" GridPane.rowIndex="3" />
+                  <TextField fx:id="onayTarihTF" GridPane.columnIndex="3" GridPane.rowIndex="3" />
+                  <TextField fx:id="operatorImzaTF" text="Operator seçilince otomatik gelecek." GridPane.columnIndex="1" GridPane.rowIndex="4" />
+                  <TextField fx:id="degerlendirenImzaTF" text="Operator seçilince otomatik gelecek." GridPane.columnIndex="2" GridPane.rowIndex="4" />
+                  <TextField fx:id="onayImzaTF" text="Operator seçilince otomatik gelecek." GridPane.columnIndex="3" GridPane.rowIndex="4" />
+               </children>
+            </GridPane>
+            <Button layoutX="148.0" layoutY="54.0" mnemonicParsing="false" onAction="#buttonclicked" text="Geh Zurück" />
+            <Button layoutX="166.0" layoutY="20.0" mnemonicParsing="false" onAction="#getHelp" text="Hilfe" />
+            <Button layoutX="65.0" layoutY="54.0" mnemonicParsing="false" onAction="#savePDF" text="PDF" />
+            <Button layoutX="31.0" layoutY="88.0" mnemonicParsing="false" onAction="#getChoiceBoxItem" text="Lücken ausfüllen" />
+            <Button layoutX="148.0" layoutY="88.0" mnemonicParsing="false" onAction="#Export_Excel" prefHeight="25.0" prefWidth="57.0" text="Excel" />
+            <Button layoutX="10.0" layoutY="20.0" mnemonicParsing="false" onAction="#saveToDatabase" text="zu Database Speichern" />
+         </children>
+      </AnchorPane>
+   </content>
+</ScrollPane>
