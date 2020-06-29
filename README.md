@@ -155,14 +155,34 @@ Database.java | Database Verbindung von ganze Programm | connect(),getConnection
 
 
 **3.2.2 Anwendungsfälle** (als UML Anwendungsfalldiagramme)
-
+![Anmeldung](https://github.com/umutyesildal/inf202repo/blob/master/umlundDesign/anmeldung.jpeg)
+![LoggedInPage](https://github.com/umutyesildal/inf202repo/blob/master/umlundDesign/loggedinPage.png)
+![Operatoren](https://github.com/umutyesildal/inf202repo/blob/master/umlundDesign/Operatoren.jpeg)
+![Firmen](https://github.com/umutyesildal/inf202repo/blob/master/umlundDesign/Firmen.jpeg)
+![Ausrustung](https://github.com/umutyesildal/inf202repo/blob/master/umlundDesign/Ausrustung.jpeg)
+![MuayeneAsamasi](https://github.com/umutyesildal/inf202repo/blob/master/umlundDesign/muayeneAsamasi.jpeg)
+![yuzeyDurumu](https://github.com/umutyesildal/inf202repo/blob/master/umlundDesign/YuzeyDurumu.jpeg)
+![bericht](https://github.com/umutyesildal/inf202repo/blob/master/umlundDesign/GenelBericht.jpeg)
+![bericht1](https://github.com/umutyesildal/inf202repo/blob/master/umlundDesign/Berichte1.jpeg)
+![bericht2](https://github.com/umutyesildal/inf202repo/blob/master/umlundDesign/bericht2.jpeg)
+![Anmeldung](https://github.com/umutyesildal/inf202repo/blob/master/umlundDesign/anmeldung.jpeg)
+![bericht3](https://github.com/umutyesildal/inf202repo/blob/master/umlundDesign/Bericht3.jpeg)
 **3.2.3 Domänenmodell** (als UML Klassendiagramm)
+![tamuml](https://github.com/umutyesildal/inf202repo/blob/master/umlundDesign/TamUML.png)
 **3.3 Entwicklung und Implementierung**
 **3.3.1 Systemarchitektur**
 **3.3.2 Methoden und Werkzeuge**
 Als Programmiersprache wurde Java verwendet, und die Codes wurden unter Berücksichtigung des OOP-Layouts geschrieben. Das JavaFX-Framework wurde verwendet. GUI-Designs wurden durch Koordination des Scene Builder und von JavaFX erstellt.Für Datenbank SQLite ist benutzt. Es wurden Bibliotheken wie Apache-POI, PDFBOX, JDBC verwendet. Sie wurden verwendet, um PDF- und Excel-Dateien zu erstellen und eine Verbindung zur Datenbank herzustellen. Github wurde zur Versionskontrolle verwendet.
 
 **3.3.3 Design-Layouts**
+![homepage](https://github.com/umutyesildal/inf202repo/blob/master/umlundDesign/HomePage.JPG)
+![signuppage](https://github.com/umutyesildal/inf202repo/blob/master/umlundDesign/SignUpPage.JPG)
+![loggedinpage](https://github.com/umutyesildal/inf202repo/blob/master/umlundDesign/LoggedInPage.JPG)
+![operatoren](https://github.com/umutyesildal/inf202repo/blob/master/umlundDesign/Operatoren.JPG)
+![firmenundausrustung](https://github.com/umutyesildal/inf202repo/blob/master/umlundDesign/FirmenUndAusrustung.JPG)
+![bericht](https://github.com/umutyesildal/inf202repo/blob/master/umlundDesign/Bericht.JPG)
+![bericht2.1](https://github.com/umutyesildal/inf202repo/blob/master/umlundDesign/bericht1kisim.JPG)
+![bericht2.2](https://github.com/umutyesildal/inf202repo/blob/master/umlundDesign/Bericht2kisim.JPG)
 
 ### **4 Stundenliste**
 Datum | Dauer | Beschreibung der Aktivität
