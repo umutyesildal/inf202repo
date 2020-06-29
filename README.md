@@ -22,7 +22,7 @@ Projektmanager/in: Umut Yunus Yeşildal
 
 **1.1 Zielbestimmung:**
 
-Dieses Projekt zielt darauf ab, menschliche Fehler zu vermeiden, während der Mitarbeiter die erforderlichen Teile ausfüllt. Ohne einige Standards akzeptiert das System keine Eingaben.
+Dieses Projekt arbeitet mit kooperierenden Systemen innerhalb des Projekts. Es gibt eine Datenbank, die mit dem Softwareprogramm verbunden ist. Mit dieser Datenbanksoftware können bestimmte Informationen wie Berichte und Bediener erstellt, gelöscht oder bearbeitet werden. Dieses Projekt zielt darauf ab, menschliches Versagen bei der Erstellung von Berichten zu vermeiden .
 
 **1.2 Produkteinsatz:**
 
@@ -30,41 +30,55 @@ Das Produkt wird von häufig geänderten Betreibern verwendet, die über die Ken
 
 **1.3 Produktfunktionen:**
 
-/LF10/ Ein Benutzer kann sich am System anmelden unter Angabe eines Benutzernamens und seines Passwortes.Alle Operatoren werden eine einzigartige Benutzername und Passwort haben.
+/LF10/ Ein Benutzer kann sich am System anmelden unter Angabe eines Benutzernamens und seines Passwortes.Alle Benutzern werden eine einzigartige Benutzername und Passwort haben. 
+/LF20/Auf der ersten Seite kann mit der Anmeldeschaltfläche ein neuer Benutzer erstellt werden.
+/LF30/Nachdem sich der Benutzer angemeldet hat, kann der Benutzer die Seiten "Berichte, Firmen und Personen, Operatoren" aufrufen.
+/LF40/Auf der Berichtsseite kann der Benutzer alle Berichtsnamen, Berichtsnummern und Kundeninformationen anzeigen. Oder der Benutzer kann einen neuen Bericht erstellen.
+/LF50/Auf der Seite zur Berichterstellung kann der Benutzer Hilfe mit der Schaltfläche "Hilfe erhalten" erhalten. Nachdem der Benutzer die erforderlichen Lücken ausgefüllt hat, muss er die Schaltfläche "Fülle die Lücken" verwenden. Der Benutzer kann den Bericht als PDF oder Excel erstellen.
+/LF60/ Nachdem der Benutzer alle Teile vor dem Speichern ausgefüllt hat, wird der Benutzer gefragt, ob er sicher ist. Nach Abschluss kann der Benutzer nichts mehr ändern. 
+/LF70/Auf der Seite "Firmen und Ausrüstüng" kann der Benutzer der Datenbank neue Firmen hinzufügen oder neue Ausrüstung. Der Benutzer kann auch YuzeyDurumu und MuayeneAsamasi hinzufügen.
+/LF80/Auf der Seite "Operatoren" kann der Benutzer operator hinzufügen,operator löschen,operator bearbeiten,operator auflisten.
+/LF90/ Kalenderdaten werden von der Software hinzugefügt, um falsche Informationen zu vermeiden. 
+/LF100/ Die Suche kann mit der Berichtsnummer erfolgen.
 
-/LF20/ Ersterfassung,Änderung and Löschung von leere Teile.
+**1.4 Qualitätsanforderungen**
+| Produktsqulität | Sehr gut | Gut | Normal |Irrelevant|
+| -------- | ------- | ---------- | -------- | -------- |
+| Funktionalität | X | -- | -- | -- |
+| Zuverlässigkeit | -- | X | -- | -- |
+| Benutzbarkeit | -- | X | -- | -- |
+| Effizienz | -- | -- | X | -- |
+| Änderbarkeit | -- | -- | -- | X |
+| Übertragbarkeit | X | -- | -- | -- |
+| Sicherheit | -- | -- | X | -- |
 
-/LF30/ Nachdem der Benutzer alle Teile vor dem Speichern ausgefüllt hat, wird der Benutzer gefragt, ob er sicher ist. Nach Abschluss kann der Benutzer nichts mehr ändern.
+**1.5 Produktdaten:**
+/LD10/Benutzern 	-Username: String,PK,Unique 
+			-Password: String
+ /LD20/Operatoren	-ID: Integer PK,Unique
+			-Name,Nachname,Unterschrift: String
+			-Level: Integer
+/LD30/Ausrüstung 	-ekipmanName: String,PK,Unique
+			-KutupMesafesi:Integer
+			-MPTasiyiciOrtam,MiknatislamaTeknigi,IVIsikSiddeti,IsikMesafesi: String
+/LD40/Firmen 		-ID: Integer,PK,Unique
+			-FirmName,Adress,IsEmri,TeklifNo:String
+/LD50/Reporten	-berichtNummer: Integer,PK,Unique
+			-berichtName,kundeName: String 
+/LD60/yuzeyDurumu	-yuzeyDurumu: String,PK,Unique
+/LD70/muayeneAsamasi	-muayeneAsamasi:String,PK,Unique
 
-/LF40/ Bedienerebenen können nur von Administratoren erhöht werden.
+**1.6 Produktleistungen**
+ /LL10/Beim Hinzufügen eines Operators muss die Operator-ID leer sein. 
+/LL20/Beim Löschen durch den Bediener wird ein neues Dialogfenster geöffnet. Die ID muss angegeben werden. 
+/LL30/ Beim Bearbeiten eines Operators müssen alle Lücken ausgefüllt werden.  
+/LL40/Alle Lücken müssen beim Hinzufügen von Firmen und Ausrüstung gefüllt werden 
+/LL50/Alle Lücken ohne ZD müssen gefüllt sein at Bericht Seite.
+/LL60/Alle ChoiceBox müssen ausgewählt sein und danach muss auf die Schaltfläche "Fülle die Lücke" geklickt werden.  
 
-/LF50/ Kalenderdaten werden von der Software hinzugefügt, um falsche Informationen zu vermeiden.
+**1.7 Ergänzungen**
 
-/LF60/ Die Suche kann mit der Berichtsnummer erfolgen.
-
-**1.4 Produktdaten:**
-
-/LD10/ Operatorendaten (Name,Nachname,Level,Benutzername,Passwort,).
-
-/LD20/ Customer,Project Name,Inspection Place,Surface Condition,Stage of Examination müssen String sein.
-
-/LD30/Inspection Standart,Evaluation Standart muss im Standart sein.
-
-**1.5 Produktleistungen**
-
-/LL10/ Ein falsches oder nicht kalibriertes Gerät kann nicht ausgewählt werden.
-
-/LL20/ Die Unterschrift des Personals, dessen Zertifikatdatum abgelaufen ist, wird nicht akzeptiert.
-
-/LL30/ Nur Bediener mit Stufe 3 können den Bericht genehmigen.
-
-/LL40/ Wenn die Prüfungstermine nicht übereinstimmen, wird das Programm nicht akzeptiert.
-
-/LL50/ Inspektionsphase kann nicht leer sein.
-
-**1.6 Ergänzungen**
-
-**1.7 Glossar**
+**1.8 Glossar**
 
 
 **3 Projektumsetzung**
@@ -88,37 +102,36 @@ Java IDE 8.2 ve HSQLDB
 | Klasse | Leistungen | Funktionen | Daten |
 | -------- | ------- | ---------- | -------- |
 MainFunktion.java | Main Klasse für Programm | Starten | --
-MainFunktion GUI | Homepage GUI | -- | --
-Operator.java | Controller für Operatoren | anmelden(),checkIfMatches(),checkVariables | Benutzername,Password,Name,Nachname Operator Stufe 
-Bericht.java | Controller für Berichten | checkBericht() | ReportNummer 
-Database.java | Database Verbindung von ganze Programm | connect(),getConnection() | Url,User,Pass 
+FirmenAusrustung | Firmen und Ausrustung Addieren | FirmaEkle(),Ausrustung()Ekle,yuzeyDurumuEkle(),muayeneAsamasiEkle() | Name,Kutupmesafesi,mptasiyiciortam,miknatislamaTeknigi....
+Operator.java | Controller für Operatoren | PersonSil(),personDuzenle(),initialize(),handeDisplayTables() | Name,Nachname Operator Stufe,Unterschrift 
+Bericht.java | Controller für Berichten | initialize(),saveDatabase(),ChoiceBoxPopulate(),datumFinder(),savePDF(),saveExcel() | projeAdi,Musteri,raporNo,Cihaz...
+Database.java | Database Verbindung von ganze Programm | connect(),getConnection() ,AddFirm(),AddYuzeyDurumu(),addOperator,AddBericht()... | Url,User,Pass 
 
 ### **3.2 Anforderungsanalyse und Konzeption**
 
 **3.2.1 Funktionale und nichtfunktionale Anforderungen**
 
-- Im Homepage Benutzer muss sich am System anmelden unter Angabe eines Benutzernamens und seines Passwortes.Alle Operatoren werden eine einzigartige Benutzername und Passwort haben.
-
+- Im Homepage Benutzer muss sich am System anmelden unter Angabe eines Benutzernamens und seines Passwortes.Alle Operatoren werden eine einzigartige Benutzername und Passwort haben. 
 - Operatoren können leere Teile füllen, ändern und löschen.
-
-- Nachdem der Benutzer alle Teile vor dem Speichern ausgefüllt hat, wird der Benutzer gefragt, ob er sicher ist. Nach Abschluss kann der Benutzer nichts mehr ändern.
-
-- Bedienerebenen können nur von Administratoren erhöht werden.
-
+- Bedienerebenen können nur von Administratoren erhöht werden. 
 - Kalenderdaten werden von der Software hinzugefügt, um falsche Informationen zu vermeiden.
-
-- Die Suche kann mit der Berichtsnummer erfolgen.
-
-- Falsch kalibriertes Gerät kann nicht ausgewählt werden.
-- Die Unterschrift des Personals, dessen Zertifikatdatum abgelaufen ist, wird nicht akzeptiert.
-- Nur Betreiber der Ebene 3 können den Bericht genehmigen.
-- Wenn die Daten nicht übereinstimmen, ist sie ungültig.
-- Die Audit-Phase darf nicht leer sein.
+-Falsch kalibriertes Gerät kann nicht ausgewählt werden.
+-Die Unterschrift des Personals, dessen Zertifikatdatum abgelaufen ist, wird nicht akzeptiert.
+-Wenn die Daten nicht übereinstimmen, ist sie ungültig.
+-Wenn nicht alle erforderlichen Lücken gefüllt sind, ist PDF nicht besonders gut.
+-Result muss mit OK oder RED angegeben werden.
+-Die Suche kann mit der OperatorID.
+-In Hinzufügen des operators id muss leer sein.
 
 **3.2.2 Anwendungsfälle** (als UML Anwendungsfalldiagramme)
 
 **3.2.3 Domänenmodell** (als UML Klassendiagramm)
+**3.3 Entwicklung und Implementierung**
+**3.3.1 Systemarchitektur**
+**3.3.2 Methoden und Werkzeuge**
+Als Programmiersprache wurde Java verwendet, und die Codes wurden unter Berücksichtigung des OOP-Layouts geschrieben. Das JavaFX-Framework wurde verwendet. GUI-Designs wurden durch Koordination des Scene Builder und von JavaFX erstellt.Für Datenbank SQLite ist benutzt. Es wurden Bibliotheken wie Apache-POI, PDFBOX, JDBC verwendet. Sie wurden verwendet, um PDF- und Excel-Dateien zu erstellen und eine Verbindung zur Datenbank herzustellen. Github wurde zur Versionskontrolle verwendet.
 
+**3.3.3 Design-Layouts**
 
 ### **4 Stundenliste**
 Datum | Dauer | Beschreibung der Aktivität
