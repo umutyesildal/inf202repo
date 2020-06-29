@@ -172,6 +172,7 @@ Database.java | Database Verbindung von ganze Programm | connect(),getConnection
 **3.3 Entwicklung und Implementierung**
 **3.3.1 Systemarchitektur**
 **3.3.2 Methoden und Werkzeuge**
+
 Als Programmiersprache wurde Java verwendet, und die Codes wurden unter Berücksichtigung des OOP-Layouts geschrieben. Das JavaFX-Framework wurde verwendet. GUI-Designs wurden durch Koordination des Scene Builder und von JavaFX erstellt.Für Datenbank SQLite ist benutzt. Es wurden Bibliotheken wie Apache-POI, PDFBOX, JDBC verwendet. Sie wurden verwendet, um PDF- und Excel-Dateien zu erstellen und eine Verbindung zur Datenbank herzustellen. Github wurde zur Versionskontrolle verwendet.
 
 **3.3.3 Design-Layouts**
