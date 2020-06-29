@@ -31,14 +31,23 @@ Das Produkt wird von häufig geänderten Betreibern verwendet, die über die Ken
 **1.3 Produktfunktionen:**
 
 /LF10/ Ein Benutzer kann sich am System anmelden unter Angabe eines Benutzernamens und seines Passwortes.Alle Benutzern werden eine einzigartige Benutzername und Passwort haben. 
+
 /LF20/Auf der ersten Seite kann mit der Anmeldeschaltfläche ein neuer Benutzer erstellt werden.
+
 /LF30/Nachdem sich der Benutzer angemeldet hat, kann der Benutzer die Seiten "Berichte, Firmen und Personen, Operatoren" aufrufen.
+
 /LF40/Auf der Berichtsseite kann der Benutzer alle Berichtsnamen, Berichtsnummern und Kundeninformationen anzeigen. Oder der Benutzer kann einen neuen Bericht erstellen.
+
 /LF50/Auf der Seite zur Berichterstellung kann der Benutzer Hilfe mit der Schaltfläche "Hilfe erhalten" erhalten. Nachdem der Benutzer die erforderlichen Lücken ausgefüllt hat, muss er die Schaltfläche "Fülle die Lücken" verwenden. Der Benutzer kann den Bericht als PDF oder Excel erstellen.
+
 /LF60/ Nachdem der Benutzer alle Teile vor dem Speichern ausgefüllt hat, wird der Benutzer gefragt, ob er sicher ist. Nach Abschluss kann der Benutzer nichts mehr ändern. 
+
 /LF70/Auf der Seite "Firmen und Ausrüstüng" kann der Benutzer der Datenbank neue Firmen hinzufügen oder neue Ausrüstung. Der Benutzer kann auch YuzeyDurumu und MuayeneAsamasi hinzufügen.
+
 /LF80/Auf der Seite "Operatoren" kann der Benutzer operator hinzufügen,operator löschen,operator bearbeiten,operator auflisten.
+
 /LF90/ Kalenderdaten werden von der Software hinzugefügt, um falsche Informationen zu vermeiden. 
+
 /LF100/ Die Suche kann mit der Berichtsnummer erfolgen.
 
 **1.4 Qualitätsanforderungen**
@@ -55,25 +64,36 @@ Das Produkt wird von häufig geänderten Betreibern verwendet, die über die Ken
 **1.5 Produktdaten:**
 /LD10/Benutzern 	-Username: String,PK,Unique 
 			-Password: String
+			
  /LD20/Operatoren	-ID: Integer PK,Unique
 			-Name,Nachname,Unterschrift: String
 			-Level: Integer
+			
 /LD30/Ausrüstung 	-ekipmanName: String,PK,Unique
 			-KutupMesafesi:Integer
 			-MPTasiyiciOrtam,MiknatislamaTeknigi,IVIsikSiddeti,IsikMesafesi: String
+			
 /LD40/Firmen 		-ID: Integer,PK,Unique
 			-FirmName,Adress,IsEmri,TeklifNo:String
+			
 /LD50/Reporten	-berichtNummer: Integer,PK,Unique
 			-berichtName,kundeName: String 
+			
 /LD60/yuzeyDurumu	-yuzeyDurumu: String,PK,Unique
+
 /LD70/muayeneAsamasi	-muayeneAsamasi:String,PK,Unique
 
 **1.6 Produktleistungen**
- /LL10/Beim Hinzufügen eines Operators muss die Operator-ID leer sein. 
+ /LL10/Beim Hinzufügen eines Operators muss die Operator-ID leer sein.
+ 
 /LL20/Beim Löschen durch den Bediener wird ein neues Dialogfenster geöffnet. Die ID muss angegeben werden. 
+
 /LL30/ Beim Bearbeiten eines Operators müssen alle Lücken ausgefüllt werden.  
+
 /LL40/Alle Lücken müssen beim Hinzufügen von Firmen und Ausrüstung gefüllt werden 
+
 /LL50/Alle Lücken ohne ZD müssen gefüllt sein at Bericht Seite.
+
 /LL60/Alle ChoiceBox müssen ausgewählt sein und danach muss auf die Schaltfläche "Fülle die Lücke" geklickt werden.  
 
 **1.7 Ergänzungen**
@@ -112,16 +132,27 @@ Database.java | Database Verbindung von ganze Programm | connect(),getConnection
 **3.2.1 Funktionale und nichtfunktionale Anforderungen**
 
 - Im Homepage Benutzer muss sich am System anmelden unter Angabe eines Benutzernamens und seines Passwortes.Alle Operatoren werden eine einzigartige Benutzername und Passwort haben. 
+
 - Operatoren können leere Teile füllen, ändern und löschen.
+
 - Bedienerebenen können nur von Administratoren erhöht werden. 
+
 - Kalenderdaten werden von der Software hinzugefügt, um falsche Informationen zu vermeiden.
+
 -Falsch kalibriertes Gerät kann nicht ausgewählt werden.
+
 -Die Unterschrift des Personals, dessen Zertifikatdatum abgelaufen ist, wird nicht akzeptiert.
+
 -Wenn die Daten nicht übereinstimmen, ist sie ungültig.
+
 -Wenn nicht alle erforderlichen Lücken gefüllt sind, ist PDF nicht besonders gut.
+
 -Result muss mit OK oder RED angegeben werden.
+
 -Die Suche kann mit der OperatorID.
+
 -In Hinzufügen des operators id muss leer sein.
+
 
 **3.2.2 Anwendungsfälle** (als UML Anwendungsfalldiagramme)
 
